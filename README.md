@@ -1,44 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# LinkedIn Clone
+> Built with React, Redux, and Firebase. Based on Sonny Songha's LinkedIn Clone tutorial.
+> Live demo [_here_](https://www.example.com).
 
-## Available Scripts
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
 
-In the project directory, you can run:
 
-### `npm start`
+## General Information
+- LinkedIn Clone using React, Redux and Firebase
+- Responsive media query sizing (with limitations)
+- Implementation of Material UI components in React
+- User storage and auth using Firestore and Firebase
+- I completed this project as my first introduction into Redux and Firebase
+- Great practice with React and components
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies Used
+- React v17.0.2
+- Redux v7.2.4 
+- Material UI v4.12.1
+- Firebase v8.7.0
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- Account creation and state management using Redux
+- Posts created are sorted by post date using Firebase timestamp
+- Responsive sizing for smaller screens (800px)
+- Photo URL is maintained in feed as well as initial login
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
+![Login Screen](./src/readme-screenshots/login.png)
+![Feed Screen](./src/readme-screenshots/feed.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
+Install the dependencies used in this project on NPM using the following commands:
 
-### `npm run eject`
+React and Redux: 
+`npm install create-react-app my-app --template redux`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Firebase:
+`npm install firebase`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Material UI:
+`npm install @mui/material @emotion/react @emotion/styled @mui/icons-material`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Project Status
+Project is: _complete_ 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Room for Improvement
+- Responsive sizing is limited to a single 800px media query as a last thought to the clone, needs to be intergrated as I'm styling each section. Will make production a lot easier in the end.
+- A refresh once logged in will erase profil photo from screen. Need to figure out why and spend more time with Redux in the future to troubleshoot those types of issues.
+- When undergoing a project like this, I need to check the date of when the tutorial was made. This was a really productive (and frustrating) lesson in making sure my dependencies were the correct ones use in a project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Acknowledgements
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=tbvguOj8C-o&t=40646s) by Sonny Sangha.
+- Also shoutout to user LloydJanseVanRensburg on github as a reference point to enure my dependencies were set up correctly
