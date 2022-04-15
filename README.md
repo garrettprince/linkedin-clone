@@ -1,6 +1,6 @@
 # LinkedIn Clone
 > Built with React, Redux, and Firebase. Based on Sonny Songha's LinkedIn Clone tutorial.
-> Live demo [_here_](linkedin-clone-nine-nu.vercel.app).
+> Live demo [_here_](https://linkedin-clone-nine-nu.vercel.app).
 
 ## Table of Contents
 * [General Info](#general-information)
